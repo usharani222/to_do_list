@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-DO List</title>
     <style>
         body
         {
-            font-family:sans-serif;
+            font-family:arial sans-serif;
             margin: 0 auto;
             height: 100vh;
-            display: flex;
-            justify-content: center;
+        }
+        .heading{
+           display: flex;
+           justify-content: center;
+           height: 10vh;
         }
         .container{
-            height: 50vh;
+            height: 100vh;
             width: 50vw;
             background-color: #BCCCDC;
             padding: 30px;
-            margin-top: 20vh;
+            margin-top: 10vh;
             border-radius: 3px;
             font-size: 20px;
+            margin-left: 24vw;
         }
         input{
             width: 35vw;
@@ -39,6 +43,9 @@
     </style>
 </head>
 <body>
+    <div class="heading">
+        <h1>To-Do List</h1>
+    </div>
     <div class="container">
         <div class="inputbox">
             <input type="text" id="text" placeholder="Enter Task">

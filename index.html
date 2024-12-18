@@ -10,6 +10,7 @@
             font-family:arial sans-serif;
             margin: 0 auto;
             height: 100vh;
+            background-color: #BCCCDC;
         }
         .heading{
            display: flex;
@@ -17,9 +18,8 @@
            height: 10vh;
         }
         .container{
-            height: 100vh;
             width: 50vw;
-            background-color: #BCCCDC;
+            background-color: #9AA6B2;
             padding: 30px;
             margin-top: 10vh;
             border-radius: 3px;
@@ -35,8 +35,9 @@
         }
         button{
             width: 8vw;
-            height: 50px;
-            background-color: #9AA6B2;
+            height: 42px;
+            margin-left: 20px;
+            background-color: #BCCCDC;
             border: none;
             border-radius: 5px;
         }
@@ -72,9 +73,9 @@
                 li.textContent=text;
                 li.style.marginTop='10px';
                 li.style.width='30px';
-                button.textContent='delete';
-                button.style.marginLeft='33vw';
-                li.appendChild(button);
+                button.textContent='Delete';
+                button.style.marginLeft='34vw';
+                li.appendChild(button); 
                 list.appendChild(li);
                 button.onclick=function(){
                     list.removeChild(li);
